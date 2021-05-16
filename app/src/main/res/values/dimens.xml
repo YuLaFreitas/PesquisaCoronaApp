@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardK">50dp</dimen>
+    <dimen name="cardB">550dp</dimen>
+    <dimen name="cardR">40dp</dimen>
+    <dimen name="cardKL">50dp</dimen>
+    <dimen name="cardBL">280dp</dimen>
+    <dimen name="cardRL">35dp</dimen>
+    <dimen name="margen">10dp</dimen>
+    <dimen name="fontTit">30sp</dimen>
+
+</resources>
