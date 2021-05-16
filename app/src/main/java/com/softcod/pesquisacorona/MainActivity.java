@@ -1,8 +1,6 @@
 package com.softcod.pesquisacorona;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,26 +27,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void inserirRodape(){
-        CardView rodape = findViewById(R.id.rodape);
-        pergunta = new FloatingActionButton(this);
 
-        pergunta.setImageResource(android.R.drawable.btn_dialog);
-        pergunta.setTranslationX(900);
-        pergunta.setPadding(10,10,10,10);
-        pergunta.setLayoutDirection(Gravity.CENTER);
-        pergunta.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-        pergunta.setRippleColor(Color.RED);
-        pergunta.setRight(100);pergunta.setLeft(100);
-
+        pergunta = findViewById(R.id.btnFl);
 
         pergunta.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+           public void onClick(View v) {
                 inserirPaginaCorpo("http://softcod.host/corona");
-            }
+           }
         });
-
-        rodape.addView(pergunta);
     }
 
 }
