@@ -6,9 +6,10 @@
         <entry key="..\:/PesquisaCorona/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="..\:/PesquisaCorona/app/src/main/res/layout-port/activity_main.xml" value="0.1" />
         <entry key="..\:/PesquisaCorona/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.225" />
-        <entry key="..\:/PesquisaCorona/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/PesquisaCorona/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/PesquisaCorona/app/src/main/res/layout/fragment_estatisticas.xml" value="0.1" />
         <entry key="..\:/PesquisaCorona/app/src/main/res/layout/fragment_questionario.xml" value="0.155078125" />
+        <entry key="..\:/PesquisaCorona/app/src/main/res/layout/item_chk.xml" value="0.12363387978142076" />
       </map>
     </option>
   </component>

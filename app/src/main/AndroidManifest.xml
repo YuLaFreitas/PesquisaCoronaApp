@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PesquisaCorona"
         android:allowBackup="false"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
